@@ -1,0 +1,108 @@
+article {
+  position: absolute;
+  width: 371px;
+  height: 372px;
+  left: 20px;
+  top: 115px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.lemon {
+  background: #8cffba;
+}
+
+.rocket {
+  background: #a6cfe2;
+}
+
+.light-part {
+  position: absolute;
+  width: 371px;
+  height: 246px;
+  top: 126px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.lemon .light-part {
+  background: #cfffe2;
+}
+
+.rocket .light-part {
+  background: #c2dce9;
+}
+
+h1 {
+  position: absolute;
+  height: 70px;
+  left: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.lemon h1 {
+  color: #166f39;
+}
+
+.rocket h1 {
+  color: #0b0c11;
+}
+
+.emoji {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 261px;
+  line-height: 82px;
+}
+
+h2 {
+  position: absolute;
+  width: 311px;
+  height: 90px;
+  left: 30px;
+  top: 30px;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.lemon h2 {
+  color: #000000;
+}
+
+.rocket h2 {
+  color: #0b0c11;
+}
+
+button {
+  position: absolute;
+  width: 311px;
+  height: 50px;
+  left: 30px;
+  top: 166px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.lemon button {
+  background: #fced84;
+  color: #000000;
+}
+
+.rocket button {
+  background: #0b0c11;
+  color: #ffd600;
+}

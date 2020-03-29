@@ -1,9 +1,17 @@
-import React from 'react'
+
+import React from 'react';
+import { Card } from './Card';
+
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
-  )
-}
+    <section>
+      <Card
+        title="Lemon"
+        underTitle="This is a really tasty fruit"
+        buttonText="Order now"
+        emoji="🍋"
+        className="lemon" />
+    </section>
+  );
+};
