@@ -17,6 +17,10 @@ article {
   background: #8cffba;
 }
 
+.clickedRocket .top {
+  background: #a6cfe2;
+}
+
 .bottom {
   position: absolute;
   height: 186px;
@@ -30,6 +34,9 @@ article {
   background: #cfffe2;
 }
 
+.clickedRocket .bottom {
+  background: #c2dce9;
+}
 
 .bottom:hover {
   height: 372px;
@@ -55,7 +62,14 @@ article {
   font-size: 60px;
   display: flex;
   align-items: center;
+}
+
+.clickedLemon .clickedHeading {
   color: #166f39;
+}
+
+.clickedRocket .clickedHeading {
+  color: #0b0c11;
 }
 
 .clickedEmoji {
