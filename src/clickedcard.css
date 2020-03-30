@@ -44,12 +44,10 @@ article {
 
 .top:hover {
   height: 372px;
-  z-index: 1;
 }
 
 .top:hover + .bottom{
   height: 0;
-  z-index: 0;
 }
 
 .clickedHeading {

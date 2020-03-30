@@ -16,6 +16,16 @@ article {
   background: #a6cfe2;
 }
 
+
+.dark-part {
+  position: absolute;
+  height: 70px;
+  left: 30px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+}
+
 .light-part {
   position: absolute;
   width: 371px;
@@ -32,23 +42,18 @@ article {
   background: #c2dce9;
 }
 
-h1 {
-  position: absolute;
-  height: 70px;
-  left: 30px;
+.heading {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
-  display: flex;
-  align-items: center;
 }
 
-.lemon h1 {
+.lemon .heading {
   color: #166f39;
 }
 
-.rocket h1 {
+.rocket .heading {
   color: #0b0c11;
 }
 
@@ -72,7 +77,7 @@ h2 {
   font-size: 36px;
   line-height: 47px;
   text-align: center;
-}
+ }
 
 .lemon h2 {
   color: #000000;
